@@ -45,7 +45,7 @@ function Skills() {
       <div className='md:px-32 px-8 md:flex md:space-x-8'>
        <div className='border-2 py-2 px-3 border-[#0ef] rounded-lg md:w-[45%] space-y-6'>
        <h1 className='text-2xl font-semibold pb-4'>Coding Skills</h1>
-           {codingSkill.map(({language, Percentage})=>(
+           {codingSkill.map(({language, Percentage},index)=>(
             <div>
                <div className='flex justify-between '>
                 <h1 className='font-semibold'>{language}</h1>
